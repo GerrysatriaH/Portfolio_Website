@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/css/output.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="navbar bg-base-100 fixed z-10 flex justify-center">
+      <div class="container w-full max-w-7xl">
+        <div class="navbar-start">
+          <!-- Mobile -->
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a href="#home-section" class="text-base">Home</a></li>
+              <li><a href="#about-section" class="text-base">About Me</a></li>
+              <li><a href="#project-section" class="text-base">Project</a></li>
+              <li><a href="#skills-section" class="text-base">Skills</a></li>
+              <li><a href="#contact-section" class="text-base">Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">GerrySatriaH</a>
+        </div>
+        <!-- Website -->
+        <div class="navbar-end hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="#home-section" class="font-semibold text-lg">Home</a></li>
+            <li><a href="#about-section" class="font-semibold text-lg">About Me</a></li>
+            <li><a href="#project-section" class="font-semibold text-lg">Project</a></li>
+            <li><a href="#skills-section" class="font-semibold text-lg">Skills</a></li>
+            <li><a href="#contact-section" class="font-semibold text-lg">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <Section id="home-section" class="flex justify-center">
+        <div class="container max-w-7xl w-full flex h-screen items-center justify-between px-7">
+          <div class="home-content">
+            <p class="text-4xl leading-relaxed font-semibold">Hi, I am </p> 
+            <p class="text-5xl leading-relaxed font-bold text-accent">Gerry Satria Halim</p>
+            <p class="text-2xl mb-7 font-semibold text-primary">Back End Developer & Mobile Developer Enthusiast</p>
+            <div class="icon flex items-center gap-2">
+              <box-icon name='github' type='logo' color='#ffffff'></box-icon>
+              <a href="https://github.com/GerrysatriaH" class="font-medium">GerrySatriaH</a>
+              <box-icon name='linkedin-square' type='logo' color='#ffffff' class="ms-5"></box-icon>
+              <a href="https://www.linkedin.com/in/gerry-satria-halim/" class="font-medium">Gerry Satria Halim</a>
+            </div>
+            <a class="btn btn-secondary my-7 font-bold animate-bounce">Download CV</a>
+          </div>
+          <div class="image">
+            <img src="/src/images/Gambar_Gerry.png" alt="foto_gerry" class="w-96">
+          </div>
+        </div>
+    </Section>
+
+    <Section id="about-section" class="bg-white px-20 py-10 flex justify-center">
+      <div class="about-content w-full max-w-7xl py-9">
+        <p class="text-center text-3xl font-bold text-black mb-7">About Me</p>
+        <p class="text-justify text-xl font-semibold text-black">I am a Informatic Engineering student with a keen interest in the latest technological advancements. 
+           My passion lies in the development processes of mobile applications and websites. As an active student, 
+           I have served as the vice-chair of a student study group and actively participated in various software development 
+           projects throughout my academic journey. These experiences have provided me with a profound understanding of the technical 
+           aspects of mobile application and website development. I have experience in projects utilizing languages such as Java, Kotlin, 
+           PHP, Visual Basic, Python, and MySQL. I am enthusiastic about continuous learning and exploring new experiences. My goal is to 
+           contribute to innovation through technology.
+        </p>
+      </div>
+    </Section>
+
+    <Section id="project-section" class="flex py-10 px-10 justify-center">
+      <div class="project-content w-full max-w-7xl">
+        <p class="text-center text-3xl font-bold mb-4 pt-10">Project</p>
+        <div class="project-content pt-4 w-full flex flex-wrap gap-7 items-center z-0 justify-center">
+    
+          <!-- project 1 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/pos_toko_baju.jpg"
+                alt="POS toko baju image"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">POS Toko Baju</h2>
+              <p class="mb-4 text-justify">Aplikasi Point of Sales Toko Baju yang berbasis Web untuk mengelola transaksi penjualan produk pada toko baju.              </p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/Point_Of_Sale_Toko_Baju" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 2 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/Furnimart.jpg"
+                alt="furnimart image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Furnimart</h2>
+              <p class="mb-4 text-justify">Aplikasi E-commerce berbasis web untuk membeli atau menjual produk perabotan rumah.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/Furnimart" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 3 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/laracrud.jpg"
+                alt="laracrud image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">LaraCRUD</h2>
+              <p class="mb-4 text-justify">Aplikasi Web yang menerapkan operasi CRUD sederhana untuk produk makanan dan minuman.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/CRUD_Laravel" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 4 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/mvc.jpg"
+                alt="mvc image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">MVC</h2>
+              <p class="mb-4 text-justify">Aplikasi Web yang menerapkan operasi CRUD dengan mengimplementasikan konsep PHP MVC untuk data Mahasiswa.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/Aplikasi_PHP_MVC" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 5 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/planetary_web.jpg"
+                alt="planetary web image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Planetary Web</h2>
+              <p class="mb-4 text-justify">Aplikasi web yang menyediakan informasi seputar tata surya.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/PlanetaryWeb" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 6 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/personal_website.jpg"
+                alt="personal web image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Personal Website</h2>
+              <p class="mb-4">Web Portofolio yang menyediakan informasi terkait projek dan kemampuan yang saya miliki.</p>
+              <div class="card-actions justify-end">
+                <a href="#" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 7 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/newsper.png"
+                alt="newsper image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Newsper App</h2>
+              <p class="mb-4">Aplikasi yang menampilkan daftar berita yang diambil dari berbagai sumber beserta dengan isi dari beritanya.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/Newsper" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 8 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/github_user.png"
+                alt="github user image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Github User App</h2>
+              <p class="mb-4">Aplikasi mobile yang menampilkan semua data pengguna github beserta dengan pengikut akunnya.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/Github_User_Project" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 9 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/story_app.png"
+                alt="story app image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Story App</h2>
+              <p class="mb-4">Aplikasi Mobile yang digunakan untuk berbagi cerita antar pengguna di berbagai wilayah.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/Story_App" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 10 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/cinelist.png"
+                alt="cinelist image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Cinelist App</h2>
+              <p class="mb-4">Aplikasi Mobile yang menampilkan daftar film. Pengguna dapat menambahkan daftar watchlist mereka pada aplikasi ini.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/GerrysatriaH/CineList_App" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 11 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/fitfans.png"
+                alt="fitfans image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Fitfans</h2>
+              <p class="mb-4">Aplikasi mobile yang memungkinkan pengguna untuk mengidentifikasi alat olahraga melalui camera.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/Capstone-CH2-PS196/FitFans" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class="card card-compact bg-accent-content w-96 shadow-xl">
+            <figure>
+              <img
+                src="/src/images/foodfinder.png"
+                alt="foodfinder image" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">FoodFinder</h2>
+              <p class="mb-4">Aplikasi mobile yang memungkinkan pengguna mencari makanan atau minuman Indonesia berdasarkan preferensi nutrisi pengguna.</p>
+              <div class="card-actions justify-end">
+                <a href="https://github.com/AIoTech-TIK-PNJ-2024/FoodFinder" class="btn btn-secondary">See Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Section>
+
+    <Section id="skills-section" class="bg-accent flex justify-center">
+      <div class="skills-content w-full max-w-7xl py-9">
+        <p class="text-center text-3xl font-bold text-black mb-7 pt-10">Skills</p>
+        <div class="skills-list mx-7">
+          <div class="card bg-white w-full shadow-xl">
+            <div class="card-body">
+              <h2 class="card-title mb-2 text-black font-bold">Web Development</h2>
+              <div class="list flex gap-5">
+                <img src="/src/images/html.png" alt="html" width="50px" height="40px"/>
+                <img src="/src/images/css.png" alt="css" width="50px" height="40px"/>
+                <img src="/src/images/javascript.png" alt="js" width="60px" height="40px"/>
+                <img src="/src/images/php.png" alt="php" width="90px" height="30px"/>
+                <img src="/src/images/bootstrap.png" alt="bootstrap" width="50px" height="40px"/>
+                <img src="/src/images/tailwind.png" alt="tailwindcss" width="90px" height="20px"/>
+                <img src="/src/images/codeigniter.png" alt="codeigniter" width="50px" height="40px"/>
+                <img src="/src/images/laravel.png" alt="laravel" width="50px" height="40px"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white w-full shadow-xl my-4">
+            <div class="card-body">
+              <h2 class="card-title mb-2 text-black font-bold">Mobile Development (android)</h2>
+              <div class="list flex gap-5">
+                <img src="/src/images/xml.png" alt="xml" width="60px" height="40px"/>
+                <img src="/src/images/kotlin.png" alt="kotlin" width="60px" height="40px"/>
+                <img src="/src/images/jetpack compose icon.png" alt="jetpack compose" width="60px" height="40px"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white w-full shadow-xl my-4">
+            <div class="card-body">
+              <h2 class="card-title mb-2 text-black font-bold">Database</h2>
+              <div class="list flex gap-5">
+                <img src="/src/images/mysql.png" alt="mysql" width="110px" height="30px"/>
+                <img src="/src/images/oracle.png" alt="oracle database" width="100px" height="40px"/>
+                <img src="/src/images/mariadb.png" alt="mariadb" width="70px" height="40px"/>
+                <img src="/src/images/sqlite.png" alt="sqlite" width="130px" height="40px"/>
+                <img src="/src/images/firebase.png" alt="firebase" width="50px" height="40px"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white w-full shadow-xl my-4">
+            <div class="card-body">
+              <h2 class="card-title mb-2 text-black font-bold">Other Programming Languages<h2>
+              <div class="list flex gap-5">
+                <img src="/src/images/c.png" alt="c++" width="70px" height="40px"/>
+                <img src="/src/images/java.png" alt="java" width="50px" height="40px"/>
+                <img src="/src/images/python.png" alt="python" width="70px" height="40px"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Section>
+
+    <footer id="contact-section" class="footer bg-accent-content flex justify-center p-10">
+      <div class="contact-content w-full max-w-7xl px-12 py-10 flex justify-between">
+        <aside>
+          <p class="footer-title font-bold text-2xl mb-4">Gerry Satria Halim</p>
+          <p class="font-semibold text-lg">Copyright © 2024 - All right reserved</p>
+        </aside>
+        <nav>
+          <h5 class="footer-title text-2xl font-bold mb-7">Contact</h5>
+          <div class="email flex items-center gap-4 mb-4 text-xl font-semibold">
+            <box-icon name='envelope' color='#ffffff' class="size-8"></box-icon><p>gerrysatria10@gmail.com</p>
+          </div>
+          <div class="whatsapp flex items-center gap-4 mb-6 text-xl font-semibold">
+            <box-icon name='whatsapp' type='logo' color='#ffffff' class="size-8"></box-icon><p>0851 5630 9401</p>
+          </div>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
